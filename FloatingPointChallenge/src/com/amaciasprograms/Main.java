@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        double pound = 100d;
+        double pound = 200d;
         double kilogramValue = convertPoundsToKilograms(pound);
 
         System.out.println(pound + " pounds is equal to " + kilogramValue + " kilograms.");
