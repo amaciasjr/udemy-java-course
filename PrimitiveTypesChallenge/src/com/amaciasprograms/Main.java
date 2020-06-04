@@ -13,5 +13,7 @@ public class Main {
         long challengeLong = 50_000L + 10L * (challengeByte + challengeShort + challengeInt);
 
         System.out.println("challengeLong = " + challengeLong);
+
+
     }
 }
