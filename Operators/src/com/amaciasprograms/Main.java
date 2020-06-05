@@ -50,5 +50,29 @@ public class Main {
         result -= 2;
         System.out.println("10 - 2 = " + result);
 
+        // Conditional Logic Operators
+        boolean isAlien = false;
+        // Make sure to ALWAYS use code blocks to prevent from introducing future bugs.
+        if (false == isAlien) {
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+        }
+
+        int topScore = 80;
+        if (100 > topScore) {
+            System.out.println("You got the high score!");
+        }
+
+        int secondTopScore = 81;
+        if ((topScore > secondTopScore) && (100 > topScore)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        // Logical Operators precedence
+        if ((90 > topScore) || (90 >= secondTopScore)) {
+            System.out.println("Either or both of the conditions are true");
+        }
+        
+
     }
 }
