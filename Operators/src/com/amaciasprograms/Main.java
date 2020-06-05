@@ -87,5 +87,21 @@ public class Main {
         if (wasCar) {
             System.out.println("wasCar is true");
         }
+
+        // Operator Challenge
+        double twentyDouble = 20.00d;
+        double eightyDouble = 80.00d;
+
+        double challengeResult = (twentyDouble + eightyDouble) * 100.00d;
+
+        double remainder = challengeResult % 40.00d;
+
+        boolean isNoRemainder = (remainder == 0) ? true : false;
+
+        System.out.println("isNoRemainder = " + isNoRemainder);
+
+        if (!isNoRemainder) {
+            System.out.println("Got some remainder");
+        }
     }
 }
