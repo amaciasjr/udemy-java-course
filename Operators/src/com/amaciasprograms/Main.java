@@ -72,7 +72,20 @@ public class Main {
         if ((90 > topScore) || (90 >= secondTopScore)) {
             System.out.println("Either or both of the conditions are true");
         }
-        
 
+        /* Logical Compliment Operator: Use this to have more concise code and to prevent errors by accidentally using
+         * assignment operators.
+         */
+        boolean isCar = false;
+        if (isCar) {
+            System.out.println("Using logical compliment operator");
+        }
+
+        // Ternary Operator ("? :")
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
     }
 }
